@@ -1,0 +1,8 @@
+e- Code: 0
+d- Code: 100
+c- Code: 101
+g- Code: 1100
+b- Code: 110100
+f- Code: 110101
+a- Code: 11011
+h- Code: 111

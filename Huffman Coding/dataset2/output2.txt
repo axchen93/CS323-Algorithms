@@ -1,0 +1,14 @@
+(bf, 4, NULL, a, b, f)
+Listhead ---> ("dummy", 0, "bf") ---> ("bf", 4, "a") ---> ("a", 4, "g") ---> ("g", 7, "d") ---> ("d", 10, "c") ---> ("c", 12, "h") ---> ("h", 16, "e") ---> ("e", 47, NULL)---> NULL
+(bfa, 8, NULL, d, bf, a)
+Listhead ---> ("dummy", 0, "g") ---> ("g", 7, "bfa") ---> ("bfa", 8, "d") ---> ("d", 10, "c") ---> ("c", 12, "h") ---> ("h", 16, "e") ---> ("e", 47, NULL)---> NULL
+(gbfa, 15, NULL, h, g, bfa)
+Listhead ---> ("dummy", 0, "d") ---> ("d", 10, "c") ---> ("c", 12, "gbfa") ---> ("gbfa", 15, "h") ---> ("h", 16, "e") ---> ("e", 47, NULL)---> NULL
+(dc, 22, NULL, e, d, c)
+Listhead ---> ("dummy", 0, "gbfa") ---> ("gbfa", 15, "h") ---> ("h", 16, "dc") ---> ("dc", 22, "e") ---> ("e", 47, NULL)---> NULL
+(gbfah, 31, NULL, e, gbfa, h)
+Listhead ---> ("dummy", 0, "dc") ---> ("dc", 22, "gbfah") ---> ("gbfah", 31, "e") ---> ("e", 47, NULL)---> NULL
+(dcgbfah, 53, NULL, NULL, dc, gbfah)
+Listhead ---> ("dummy", 0, "e") ---> ("e", 47, "dcgbfah") ---> ("dcgbfah", 53, NULL)---> NULL
+(edcgbfah, 100, NULL, NULL, e, dcgbfah)
+Listhead ---> ("dummy", 0, "edcgbfah") ---> ("edcgbfah", 100, NULL)---> NULL

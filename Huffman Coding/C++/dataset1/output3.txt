@@ -1,0 +1,7 @@
+m- Code: 0
+h- Code: 100
+k- Code: 1010
+w- Code: 10110
+f- Code: 10111
+p- Code: 110
+d- Code: 111

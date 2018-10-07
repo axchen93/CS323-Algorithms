@@ -1,0 +1,70 @@
+*** Below is the contructed stack ***
+TOP -> ( 102, 164 ) -> ( 164, 493 ) -> ( 493, 111 ) -> ( 111, 0 ) -> ( 0, 99 ) -> ( 99, 834 ) -> ( 834, 419 ) -> ( 419, 7680 ) -> ( 7680, 418 ) -> ( 418, 732 ) -> ( 732, 456 ) -> ( 456, 835 ) -> ( 835, 189 ) -> ( 189, 120 ) -> ( 120, 627 ) -> ( 627, 222 ) -> ( 222, 321 ) -> ( 321, 919 ) -> ( 919, 1816 ) -> ( 1816, 118 ) -> ( 118, 308 ) -> ( 308, 4277 ) -> ( 4277, 109 ) -> ( 109, 229 ) -> ( 229, 107 ) -> ( 107, 7991 ) -> ( 7991, 87 ) -> ( 87, 797 ) -> ( 797, 131 ) -> ( 131, 186 ) -> ( 186, NULL ) -> NULL
+*** Below is the HASHTABLE ***
+Table [0][0]: Front -> ( 0, 7680 ) -> ( 7680, 120 ) -> ( 120, NULL ) -> NULL
+Tail -> ( 120, NULL ) -> NULL
+Table [0][1]: Front -> ( 111, 321 ) -> ( 321, 7991 ) -> ( 7991, 131 ) -> ( 131, NULL ) -> NULL
+Tail -> ( 131, NULL ) -> NULL
+Table [0][2]: Front -> ( 102, 732 ) -> ( 732, 222 ) -> ( 222, NULL ) -> NULL
+Tail -> ( 222, NULL ) -> NULL
+Table [0][3]: Front -> ( 493, NULL ) -> NULL
+Tail -> ( 493, NULL ) -> NULL
+Table [0][4]: Front -> ( 164, 834 ) -> ( 834, NULL ) -> NULL
+Tail -> ( 834, NULL ) -> NULL
+Table [0][5]: Front -> ( 835, NULL ) -> NULL
+Tail -> ( 835, NULL ) -> NULL
+Table [0][6]: Front -> ( 456, 1816 ) -> ( 1816, 186 ) -> ( 186, NULL ) -> NULL
+Tail -> ( 186, NULL ) -> NULL
+Table [0][7]: Front -> ( 627, 4277 ) -> ( 4277, 107 ) -> ( 107, 87 ) -> ( 87, 797 ) -> ( 797, NULL ) -> NULL
+Tail -> ( 797, NULL ) -> NULL
+Table [0][8]: Front -> ( 418, 118 ) -> ( 118, 308 ) -> ( 308, NULL ) -> NULL
+Tail -> ( 308, NULL ) -> NULL
+Table [0][9]: Front -> ( 99, 419 ) -> ( 419, 189 ) -> ( 189, 919 ) -> ( 919, 109 ) -> ( 109, 229 ) -> ( 229, NULL ) -> NULL
+Tail -> ( 229, NULL ) -> NULL
+*** Below is the HASHTABLE ***
+Table [1][0]: Front -> ( 0, 102 ) -> ( 102, 107 ) -> ( 107, 308 ) -> ( 308, 109 ) -> ( 109, NULL ) -> NULL
+Tail -> ( 109, NULL ) -> NULL
+Table [1][1]: Front -> ( 111, 1816 ) -> ( 1816, 418 ) -> ( 418, 118 ) -> ( 118, 419 ) -> ( 419, 919 ) -> ( 919, NULL ) -> NULL
+Tail -> ( 919, NULL ) -> NULL
+Table [1][2]: Front -> ( 120, 321 ) -> ( 321, 222 ) -> ( 222, 627 ) -> ( 627, 229 ) -> ( 229, NULL ) -> NULL
+Tail -> ( 229, NULL ) -> NULL
+Table [1][3]: Front -> ( 131, 732 ) -> ( 732, 834 ) -> ( 834, 835 ) -> ( 835, NULL ) -> NULL
+Tail -> ( 835, NULL ) -> NULL
+Table [1][5]: Front -> ( 456, NULL ) -> NULL
+Tail -> ( 456, NULL ) -> NULL
+Table [1][6]: Front -> ( 164, NULL ) -> NULL
+Tail -> ( 164, NULL ) -> NULL
+Table [1][7]: Front -> ( 4277, NULL ) -> NULL
+Tail -> ( 4277, NULL ) -> NULL
+Table [1][8]: Front -> ( 7680, 186 ) -> ( 186, 87 ) -> ( 87, 189 ) -> ( 189, NULL ) -> NULL
+Tail -> ( 189, NULL ) -> NULL
+Table [1][9]: Front -> ( 7991, 493 ) -> ( 493, 797 ) -> ( 797, 99 ) -> ( 99, NULL ) -> NULL
+Tail -> ( 99, NULL ) -> NULL
+*** Below is the HASHTABLE ***
+Table [0][0]: Front -> ( 0, 87 ) -> ( 87, 99 ) -> ( 99, NULL ) -> NULL
+Tail -> ( 99, NULL ) -> NULL
+Table [0][1]: Front -> ( 102, 107 ) -> ( 107, 109 ) -> ( 109, 111 ) -> ( 111, 118 ) -> ( 118, 120 ) -> ( 120, 131 ) -> ( 131, 164 ) -> ( 164, 186 ) -> ( 186, 189 ) -> ( 189, NULL ) -> NULL
+Tail -> ( 189, NULL ) -> NULL
+Table [0][2]: Front -> ( 222, 229 ) -> ( 229, 4277 ) -> ( 4277, NULL ) -> NULL
+Tail -> ( 4277, NULL ) -> NULL
+Table [0][3]: Front -> ( 308, 321 ) -> ( 321, NULL ) -> NULL
+Tail -> ( 321, NULL ) -> NULL
+Table [0][4]: Front -> ( 418, 419 ) -> ( 419, 456 ) -> ( 456, 493 ) -> ( 493, NULL ) -> NULL
+Tail -> ( 493, NULL ) -> NULL
+Table [0][6]: Front -> ( 627, 7680 ) -> ( 7680, NULL ) -> NULL
+Tail -> ( 7680, NULL ) -> NULL
+Table [0][7]: Front -> ( 732, 797 ) -> ( 797, NULL ) -> NULL
+Tail -> ( 797, NULL ) -> NULL
+Table [0][8]: Front -> ( 1816, 834 ) -> ( 834, 835 ) -> ( 835, NULL ) -> NULL
+Tail -> ( 835, NULL ) -> NULL
+Table [0][9]: Front -> ( 919, 7991 ) -> ( 7991, NULL ) -> NULL
+Tail -> ( 7991, NULL ) -> NULL
+*** Below is the HASHTABLE ***
+Table [1][0]: Front -> ( 0, 87 ) -> ( 87, 99 ) -> ( 99, 102 ) -> ( 102, 107 ) -> ( 107, 109 ) -> ( 109, 111 ) -> ( 111, 118 ) -> ( 118, 120 ) -> ( 120, 131 ) -> ( 131, 164 ) -> ( 164, 186 ) -> ( 186, 189 ) -> ( 189, 222 ) -> ( 222, 229 ) -> ( 229, 308 ) -> ( 308, 321 ) -> ( 321, 418 ) -> ( 418, 419 ) -> ( 419, 456 ) -> ( 456, 493 ) -> ( 493, 627 ) -> ( 627, 732 ) -> ( 732, 797 ) -> ( 797, 834 ) -> ( 834, 835 ) -> ( 835, 919 ) -> ( 919, NULL ) -> NULL
+Tail -> ( 919, NULL ) -> NULL
+Table [1][1]: Front -> ( 1816, NULL ) -> NULL
+Tail -> ( 1816, NULL ) -> NULL
+Table [1][4]: Front -> ( 4277, NULL ) -> NULL
+Tail -> ( 4277, NULL ) -> NULL
+Table [1][7]: Front -> ( 7680, 7991 ) -> ( 7991, NULL ) -> NULL
+Tail -> ( 7991, NULL ) -> NULL

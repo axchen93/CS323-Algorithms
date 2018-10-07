@@ -1,0 +1,99 @@
+==============================
+There are 8 nodes in this graph
+==============================
+Source Node = 1
+The shortest path from the source node 1 are:
+The path from 1 to 1 : 1 <- 1: cost = 0
+The path from 1 to 2 : 2 <- 3 <- 1: cost = 7
+The path from 1 to 3 : 3 <- 1: cost = 5
+The path from 1 to 4 : 4 <- 3 <- 1: cost = 10
+The path from 1 to 5 : 5 <- 4 <- 3 <- 1: cost = 15
+The path from 1 to 6 : 6 <- 4 <- 3 <- 1: cost = 13
+The path from 1 to 7 : 7 <- 8 <- 2 <- 3 <- 1: cost = 11
+The path from 1 to 8 : 8 <- 2 <- 3 <- 1: cost = 9
+
+=========================================================
+Source Node = 2
+The shortest path from the source node 2 are:
+The path from 2 to 1 : 1 <- 8 <- 2: cost = 8
+The path from 2 to 2 : 2 <- 2: cost = 0
+The path from 2 to 3 : 3 <- 1 <- 8 <- 2: cost = 13
+The path from 2 to 4 : 4 <- 7 <- 8 <- 2: cost = 8
+The path from 2 to 5 : 5 <- 4 <- 7 <- 8 <- 2: cost = 13
+The path from 2 to 6 : 6 <- 7 <- 8 <- 2: cost = 7
+The path from 2 to 7 : 7 <- 8 <- 2: cost = 4
+The path from 2 to 8 : 8 <- 2: cost = 2
+
+=========================================================
+Source Node = 3
+The shortest path from the source node 3 are:
+The path from 3 to 1 : 1 <- 8 <- 2 <- 3: cost = 10
+The path from 3 to 2 : 2 <- 3: cost = 2
+The path from 3 to 3 : 3 <- 3: cost = 0
+The path from 3 to 4 : 4 <- 3: cost = 5
+The path from 3 to 5 : 5 <- 4 <- 3: cost = 10
+The path from 3 to 6 : 6 <- 4 <- 3: cost = 8
+The path from 3 to 7 : 7 <- 8 <- 2 <- 3: cost = 6
+The path from 3 to 8 : 8 <- 2 <- 3: cost = 4
+
+=========================================================
+Source Node = 4
+The shortest path from the source node 4 are:
+The path from 4 to 1 : 1 <- 6 <- 4: cost = 8
+The path from 4 to 2 : 2 <- 3 <- 1 <- 6 <- 4: cost = 15
+The path from 4 to 3 : 3 <- 1 <- 6 <- 4: cost = 13
+The path from 4 to 4 : 4 <- 4: cost = 0
+The path from 4 to 5 : 5 <- 4: cost = 5
+The path from 4 to 6 : 6 <- 4: cost = 3
+The path from 4 to 7 : 7 <- 6 <- 4: cost = 5
+The path from 4 to 8 : 8 <- 2 <- 3 <- 1 <- 6 <- 4: cost = 17
+
+=========================================================
+Source Node = 5
+The shortest path from the source node 5 are:
+The path from 5 to 1 : 1 <- 6 <- 5: cost = 20
+The path from 5 to 2 : 2 <- 3 <- 1 <- 6 <- 5: cost = 27
+The path from 5 to 3 : 3 <- 1 <- 6 <- 5: cost = 25
+The path from 5 to 4 : 4 <- 7 <- 6 <- 5: cost = 21
+The path from 5 to 5 : 5 <- 5: cost = 0
+The path from 5 to 6 : 6 <- 5: cost = 15
+The path from 5 to 7 : 7 <- 6 <- 5: cost = 17
+The path from 5 to 8 : 8 <- 2 <- 3 <- 1 <- 6 <- 5: cost = 29
+
+=========================================================
+Source Node = 6
+The shortest path from the source node 6 are:
+The path from 6 to 1 : 1 <- 6: cost = 5
+The path from 6 to 2 : 2 <- 3 <- 1 <- 6: cost = 12
+The path from 6 to 3 : 3 <- 1 <- 6: cost = 10
+The path from 6 to 4 : 4 <- 7 <- 6: cost = 6
+The path from 6 to 5 : 5 <- 4 <- 7 <- 6: cost = 11
+The path from 6 to 6 : 6 <- 6: cost = 0
+The path from 6 to 7 : 7 <- 6: cost = 2
+The path from 6 to 8 : 8 <- 2 <- 3 <- 1 <- 6: cost = 14
+
+=========================================================
+Source Node = 7
+The shortest path from the source node 7 are:
+The path from 7 to 1 : 1 <- 6 <- 7: cost = 8
+The path from 7 to 2 : 2 <- 3 <- 1 <- 6 <- 7: cost = 15
+The path from 7 to 3 : 3 <- 1 <- 6 <- 7: cost = 13
+The path from 7 to 4 : 4 <- 7: cost = 4
+The path from 7 to 5 : 5 <- 4 <- 7: cost = 9
+The path from 7 to 6 : 6 <- 7: cost = 3
+The path from 7 to 7 : 7 <- 7: cost = 0
+The path from 7 to 8 : 8 <- 2 <- 3 <- 1 <- 6 <- 7: cost = 17
+
+=========================================================
+Source Node = 8
+The shortest path from the source node 8 are:
+The path from 8 to 1 : 1 <- 8: cost = 6
+The path from 8 to 2 : 2 <- 3 <- 1 <- 8: cost = 13
+The path from 8 to 3 : 3 <- 1 <- 8: cost = 11
+The path from 8 to 4 : 4 <- 7 <- 8: cost = 6
+The path from 8 to 5 : 5 <- 4 <- 7 <- 8: cost = 11
+The path from 8 to 6 : 6 <- 7 <- 8: cost = 5
+The path from 8 to 7 : 7 <- 8: cost = 2
+The path from 8 to 8 : 8 <- 8: cost = 0
+
+=========================================================

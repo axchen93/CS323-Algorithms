@@ -1,0 +1,14 @@
+(bf, 4)---Code: NULL---Next: a----Left child: b---Right child: f
+Listhead ---> ("dummy", 0, "bf") ---> ("bf", 4, "a") ---> ("a", 4, "g") ---> ("g", 7, "d") ---> ("d", 10, "c") ---> ("c", 12, "h") ---> ("h", 16, "e") ---> ("e", 47, NULL)---> NULL
+(bfa, 8)---Code: NULL---Next: d----Left child: bf---Right child: a
+Listhead ---> ("dummy", 0, "g") ---> ("g", 7, "bfa") ---> ("bfa", 8, "d") ---> ("d", 10, "c") ---> ("c", 12, "h") ---> ("h", 16, "e") ---> ("e", 47, NULL)---> NULL
+(gbfa, 15)---Code: NULL---Next: h----Left child: g---Right child: bfa
+Listhead ---> ("dummy", 0, "d") ---> ("d", 10, "c") ---> ("c", 12, "gbfa") ---> ("gbfa", 15, "h") ---> ("h", 16, "e") ---> ("e", 47, NULL)---> NULL
+(dc, 22)---Code: NULL---Next: e----Left child: d---Right child: c
+Listhead ---> ("dummy", 0, "gbfa") ---> ("gbfa", 15, "h") ---> ("h", 16, "dc") ---> ("dc", 22, "e") ---> ("e", 47, NULL)---> NULL
+(gbfah, 31)---Code: NULL---Next: e----Left child: gbfa---Right child: h
+Listhead ---> ("dummy", 0, "dc") ---> ("dc", 22, "gbfah") ---> ("gbfah", 31, "e") ---> ("e", 47, NULL)---> NULL
+(dcgbfah, 53)---Code: NULL---Next: NULL---Left child: dc---Right child: gbfah
+Listhead ---> ("dummy", 0, "e") ---> ("e", 47, "dcgbfah") ---> ("dcgbfah", 53, NULL)---> NULL
+(edcgbfah, 100)---Code: NULL---Next: NULL---Left child: e---Right child: dcgbfah
+Listhead ---> ("dummy", 0, "edcgbfah") ---> ("edcgbfah", 100, NULL)---> NULL

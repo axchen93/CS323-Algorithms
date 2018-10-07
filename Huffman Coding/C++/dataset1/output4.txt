@@ -1,0 +1,44 @@
+Preorder: 
+(mhkwfpd, 100)---Code: NULL---Next: NULL---Left child: m---Right child: hkwfpd
+(m, 40)---Code: 0---Next: hkwfpd----Left child: NULL---Right child: NULL
+(hkwfpd, 60)---Code: NULL---Next: mhkwfpd----Left child: hkwf---Right child: pd
+(hkwf, 25)---Code: NULL---Next: pd----Left child: h---Right child: kwf
+(h, 10)---Code: 100---Next: kwf----Left child: NULL---Right child: NULL
+(kwf, 15)---Code: NULL---Next: p----Left child: k---Right child: wf
+(k, 7)---Code: 1010---Next: wf----Left child: NULL---Right child: NULL
+(wf, 8)---Code: NULL---Next: h----Left child: w---Right child: f
+(w, 3)---Code: 10110---Next: f----Left child: NULL---Right child: NULL
+(f, 5)---Code: 10111---Next: k----Left child: NULL---Right child: NULL
+(pd, 35)---Code: NULL---Next: m----Left child: p---Right child: d
+(p, 15)---Code: 110---Next: d----Left child: NULL---Right child: NULL
+(d, 20)---Code: 111---Next: hkwf----Left child: NULL---Right child: NULL
+
+Inorder: 
+(m, 40)---Code: 0---Next: hkwfpd----Left child: NULL---Right child: NULL
+(mhkwfpd, 100)---Code: NULL---Next: NULL---Left child: m---Right child: hkwfpd
+(hkwfpd, 60)---Code: NULL---Next: mhkwfpd----Left child: hkwf---Right child: pd
+(hkwf, 25)---Code: NULL---Next: pd----Left child: h---Right child: kwf
+(h, 10)---Code: 100---Next: kwf----Left child: NULL---Right child: NULL
+(kwf, 15)---Code: NULL---Next: p----Left child: k---Right child: wf
+(k, 7)---Code: 1010---Next: wf----Left child: NULL---Right child: NULL
+(wf, 8)---Code: NULL---Next: h----Left child: w---Right child: f
+(w, 3)---Code: 10110---Next: f----Left child: NULL---Right child: NULL
+(f, 5)---Code: 10111---Next: k----Left child: NULL---Right child: NULL
+(pd, 35)---Code: NULL---Next: m----Left child: p---Right child: d
+(p, 15)---Code: 110---Next: d----Left child: NULL---Right child: NULL
+(d, 20)---Code: 111---Next: hkwf----Left child: NULL---Right child: NULL
+
+Postorder: 
+(m, 40)---Code: 0---Next: hkwfpd----Left child: NULL---Right child: NULL
+(hkwfpd, 60)---Code: NULL---Next: mhkwfpd----Left child: hkwf---Right child: pd
+(hkwf, 25)---Code: NULL---Next: pd----Left child: h---Right child: kwf
+(h, 10)---Code: 100---Next: kwf----Left child: NULL---Right child: NULL
+(kwf, 15)---Code: NULL---Next: p----Left child: k---Right child: wf
+(k, 7)---Code: 1010---Next: wf----Left child: NULL---Right child: NULL
+(wf, 8)---Code: NULL---Next: h----Left child: w---Right child: f
+(w, 3)---Code: 10110---Next: f----Left child: NULL---Right child: NULL
+(f, 5)---Code: 10111---Next: k----Left child: NULL---Right child: NULL
+(pd, 35)---Code: NULL---Next: m----Left child: p---Right child: d
+(p, 15)---Code: 110---Next: d----Left child: NULL---Right child: NULL
+(d, 20)---Code: 111---Next: hkwf----Left child: NULL---Right child: NULL
+(mhkwfpd, 100)---Code: NULL---Next: NULL---Left child: m---Right child: hkwfpd

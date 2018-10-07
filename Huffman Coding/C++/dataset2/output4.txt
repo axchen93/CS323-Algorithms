@@ -1,0 +1,50 @@
+Preorder: 
+(edcgbfah, 100)---Code: NULL---Next: NULL---Left child: e---Right child: dcgbfah
+(e, 47)---Code: 0---Next: dcgbfah----Left child: NULL---Right child: NULL
+(dcgbfah, 53)---Code: NULL---Next: edcgbfah----Left child: dc---Right child: gbfah
+(dc, 22)---Code: NULL---Next: gbfah----Left child: d---Right child: c
+(d, 10)---Code: 100---Next: c----Left child: NULL---Right child: NULL
+(c, 12)---Code: 101---Next: gbfa----Left child: NULL---Right child: NULL
+(gbfah, 31)---Code: NULL---Next: e----Left child: gbfa---Right child: h
+(gbfa, 15)---Code: NULL---Next: h----Left child: g---Right child: bfa
+(g, 7)---Code: 1100---Next: bfa----Left child: NULL---Right child: NULL
+(bfa, 8)---Code: NULL---Next: d----Left child: bf---Right child: a
+(bf, 4)---Code: NULL---Next: a----Left child: b---Right child: f
+(b, 1)---Code: 110100---Next: f----Left child: NULL---Right child: NULL
+(f, 3)---Code: 110101---Next: bf----Left child: NULL---Right child: NULL
+(a, 4)---Code: 11011---Next: g----Left child: NULL---Right child: NULL
+(h, 16)---Code: 111---Next: dc----Left child: NULL---Right child: NULL
+
+Inorder: 
+(e, 47)---Code: 0---Next: dcgbfah----Left child: NULL---Right child: NULL
+(edcgbfah, 100)---Code: NULL---Next: NULL---Left child: e---Right child: dcgbfah
+(dcgbfah, 53)---Code: NULL---Next: edcgbfah----Left child: dc---Right child: gbfah
+(dc, 22)---Code: NULL---Next: gbfah----Left child: d---Right child: c
+(d, 10)---Code: 100---Next: c----Left child: NULL---Right child: NULL
+(c, 12)---Code: 101---Next: gbfa----Left child: NULL---Right child: NULL
+(gbfah, 31)---Code: NULL---Next: e----Left child: gbfa---Right child: h
+(gbfa, 15)---Code: NULL---Next: h----Left child: g---Right child: bfa
+(g, 7)---Code: 1100---Next: bfa----Left child: NULL---Right child: NULL
+(bfa, 8)---Code: NULL---Next: d----Left child: bf---Right child: a
+(bf, 4)---Code: NULL---Next: a----Left child: b---Right child: f
+(b, 1)---Code: 110100---Next: f----Left child: NULL---Right child: NULL
+(f, 3)---Code: 110101---Next: bf----Left child: NULL---Right child: NULL
+(a, 4)---Code: 11011---Next: g----Left child: NULL---Right child: NULL
+(h, 16)---Code: 111---Next: dc----Left child: NULL---Right child: NULL
+
+Postorder: 
+(e, 47)---Code: 0---Next: dcgbfah----Left child: NULL---Right child: NULL
+(dcgbfah, 53)---Code: NULL---Next: edcgbfah----Left child: dc---Right child: gbfah
+(dc, 22)---Code: NULL---Next: gbfah----Left child: d---Right child: c
+(d, 10)---Code: 100---Next: c----Left child: NULL---Right child: NULL
+(c, 12)---Code: 101---Next: gbfa----Left child: NULL---Right child: NULL
+(gbfah, 31)---Code: NULL---Next: e----Left child: gbfa---Right child: h
+(gbfa, 15)---Code: NULL---Next: h----Left child: g---Right child: bfa
+(g, 7)---Code: 1100---Next: bfa----Left child: NULL---Right child: NULL
+(bfa, 8)---Code: NULL---Next: d----Left child: bf---Right child: a
+(bf, 4)---Code: NULL---Next: a----Left child: b---Right child: f
+(b, 1)---Code: 110100---Next: f----Left child: NULL---Right child: NULL
+(f, 3)---Code: 110101---Next: bf----Left child: NULL---Right child: NULL
+(a, 4)---Code: 11011---Next: g----Left child: NULL---Right child: NULL
+(h, 16)---Code: 111---Next: dc----Left child: NULL---Right child: NULL
+(edcgbfah, 100)---Code: NULL---Next: NULL---Left child: e---Right child: dcgbfah

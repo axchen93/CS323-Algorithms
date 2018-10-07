@@ -1,0 +1,12 @@
+(wf, 8)---Code: NULL---Next: h----Left child: w---Right child: f
+Listhead ---> ("dummy", 0, "k") ---> ("k", 7, "wf") ---> ("wf", 8, "h") ---> ("h", 10, "p") ---> ("p", 15, "d") ---> ("d", 20, "m") ---> ("m", 40, NULL)---> NULL
+(kwf, 15)---Code: NULL---Next: p----Left child: k---Right child: wf
+Listhead ---> ("dummy", 0, "h") ---> ("h", 10, "kwf") ---> ("kwf", 15, "p") ---> ("p", 15, "d") ---> ("d", 20, "m") ---> ("m", 40, NULL)---> NULL
+(hkwf, 25)---Code: NULL---Next: m----Left child: h---Right child: kwf
+Listhead ---> ("dummy", 0, "p") ---> ("p", 15, "d") ---> ("d", 20, "hkwf") ---> ("hkwf", 25, "m") ---> ("m", 40, NULL)---> NULL
+(pd, 35)---Code: NULL---Next: m----Left child: p---Right child: d
+Listhead ---> ("dummy", 0, "hkwf") ---> ("hkwf", 25, "pd") ---> ("pd", 35, "m") ---> ("m", 40, NULL)---> NULL
+(hkwfpd, 60)---Code: NULL---Next: NULL---Left child: hkwf---Right child: pd
+Listhead ---> ("dummy", 0, "m") ---> ("m", 40, "hkwfpd") ---> ("hkwfpd", 60, NULL)---> NULL
+(mhkwfpd, 100)---Code: NULL---Next: NULL---Left child: m---Right child: hkwfpd
+Listhead ---> ("dummy", 0, "mhkwfpd") ---> ("mhkwfpd", 100, NULL)---> NULL
