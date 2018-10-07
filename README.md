@@ -1,11 +1,13 @@
-# Algorithms
+# CS323 Algorithms
+> Queens College Spring 2018
+
 Algorithms written in C++ and Java
-<ol>
-  <li>K-Mean-Clustering
-  <li>Huffman Encoding
-  <li>Heap Sort
-  <li>Radix Sort
-  <li>Scheduling 
-  <li>Password Checker
-  <li>Dijkstra Shortest Path
-<ol>
+
+1. K-Mean-Clustering
+2. Huffman Encoding
+3. Heap Sort
+4. Radix Sort
+5. Scheduling 
+6. Password Checker
+7. Dijkstra Shortest Path
+
